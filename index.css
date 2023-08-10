@@ -173,23 +173,15 @@ iframe {
     margin-bottom: 5px;
 }
 
-#landing {
+body {
 	background-image: 
-		linear-gradient(rgba(245, 246, 252, 0.30), rgba(126, 138, 165, 0.719)),
-		url(https://i.imgur.com/AaozQiI.jpg)
+		linear-gradient(rgba(245, 246, 252, 0.30), rgba(126, 138, 165, 0.886)),
+		url(https://i.imgur.com/LrjMQn5.png)
 	;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-
+    background-attachment: fixed;
+    height: 100vh;
 }
 
-body {
-    background-image: 
-    linear-gradient(rgba(242, 242, 242, 0.737), rgba(89, 98, 120, 0.498)),
-    url(https://i.imgur.com/3KhqfUd.jpg)
-    ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
